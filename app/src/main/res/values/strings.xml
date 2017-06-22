@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+
+    <string name="q1">1-Which of those did Ross Geller marry in the show?</string>
+    <string name="q2">2-Where do Ross and Phoebe get stuck before Ben is born?</string>
+    <string name="q3">3-What type of animal is Hugsy?</string>
+    <string name="q4">4-What did Joey buy Chandler as a token of their friendship, which Chandler hated?</string>
+    <string name="q5">5-What’s the number of Monica’s apartment?</string>
+
+    <string name="a11">Carol </string>
+    <string name="a12">Bonnie</string>
+    <string name="a13">Rachel</string>
+    <string name="a14">Emily</string>
+
+
+    <string name="a21">A patient\'s room</string>
+    <string name="a22">A basement</string>
+    <string name="a23">A cleaning closet</string>
+    <string name="a24">The hospital\'s roof</string>
+
+    <string name="a31">Panda</string>
+    <string name="a32">Penguin</string>
+    <string name="a33">Rabbit</string>
+    <string name="a34">Duck</string>
+
+    <string name="a41">T-shirt</string>
+    <string name="a42">Ring</string>
+    <string name="a43">Sculpture</string>
+    <string name="a44">Barcelet</string>
+
+
+</resources>

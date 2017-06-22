@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".MainActivity"
+        android:background="#fff3d8">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cover" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="F.R.I.E.N.D.S  QUIZ"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            android:textColor="#FFFF5900"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q1"
+            android:textAppearance="@style/MyStyle"
+            style="@style/MyStyle"/>
+
+        <CheckBox
+            android:id="@+id/a11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/a11"
+            android:textAppearance="@style/MyChoices1"
+            />
+
+        <CheckBox
+            android:id="@+id/a12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/a12"
+            android:textAppearance="@style/MyChoices1"/>
+
+        <CheckBox
+            android:id="@+id/a13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/a13"
+            android:textAppearance="@style/MyChoices1"/>
+
+        <CheckBox
+            android:id="@+id/a14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/a14"
+            android:textAppearance="@style/MyChoices1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q2"
+            android:textAppearance="@style/MyStyle"
+            style="@style/MyStyle"/>
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/a21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a21"
+                android:textAppearance="@style/MyChoices2"/>
+
+            <RadioButton
+                android:id="@+id/a22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a22"
+                android:textAppearance="@style/MyChoices2"/>
+
+            <RadioButton
+                android:id="@+id/a23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a23"
+                android:textAppearance="@style/MyChoices2"/>
+
+            <RadioButton
+                android:id="@+id/a24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a24"
+                android:textAppearance="@style/MyChoices2"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q3"
+            android:textAppearance="@style/MyStyle"
+            style="@style/MyStyle"/>
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/a31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a31"
+                android:textAppearance="@style/MyChoices2"/>
+
+            <RadioButton
+                android:id="@+id/a32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a32"
+                android:textAppearance="@style/MyChoices2"/>
+
+            <RadioButton
+                android:id="@+id/a33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a33"
+                android:textAppearance="@style/MyChoices2"/>
+
+            <RadioButton
+                android:id="@+id/a34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a34"
+                android:textAppearance="@style/MyChoices2"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q4"
+            android:textAppearance="@style/MyStyle"
+            style="@style/MyStyle"/>
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/a41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a41"
+                android:textAppearance="@style/MyChoices2"/>
+
+            <RadioButton
+                android:id="@+id/a42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a42"
+                android:textAppearance="@style/MyChoices2"/>
+
+            <RadioButton
+                android:id="@+id/a43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a43"
+                android:textAppearance="@style/MyChoices2"/>
+
+            <RadioButton
+                android:id="@+id/a44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a44"
+                android:textAppearance="@style/MyChoices2"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q5"
+            android:textAppearance="@style/MyStyle"
+            style="@style/MyStyle"/>
+
+        <EditText
+            android:id="@+id/a5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            android:inputType="number"
+
+            <requestFocus />
+
+        </EditText>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#fa9600"
+            android:backgroundTint="#fe8800"
+            android:capitalize="characters"
+            android:clickable="true"
+            android:onClick="submitAnswer"
+            android:shadowColor="#eeee06"
+            android:text="Submit"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>
