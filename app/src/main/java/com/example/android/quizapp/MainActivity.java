@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
         if (A23) {
             baseScore++;
         }
-        if ((A11 == true) && (A12 == false) && (A13 == true) && (A14 == true)) {
+        if ((A11 && !A12 && A13 && A14)) {
             baseScore++;
         }
         if (a5 == 20) {
